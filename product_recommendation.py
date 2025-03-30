@@ -13,7 +13,7 @@ import faiss
 from sklearn.feature_extraction.text import TfidfVectorizer
 from textblob import TextBlob
 
-data = pd.read_csv(r"E:\ML_project\amazon.csv")
+data = pd.read_csv("amazon.csv")
 
 data
 
