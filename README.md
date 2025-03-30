@@ -37,7 +37,7 @@ Welcome to the **Product Recommendation System**! This application leverages pow
 ## **Setup Instructions**
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Mahaelango/Product_Recommentation_System.git
    ```
 2. Navigate to the project folder:
    ```bash
