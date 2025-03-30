@@ -7,12 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1boTU4ux9A8aiDKNK39czhfkLreoVsInF
 """
 
-!pip -q install faiss-cpu
 import pandas as pd
 import numpy as np
 import faiss
+from sklearn.feature_extraction.text import TfidfVectorizer
+from textblob import TextBlob
 
-data = pd.read_csv(r'/content/drive/MyDrive/amazon.csv')
+data = pd.read_csv(r"E:\ML_project\amazon.csv")
+
 data
 
 #taking only the necessary columns
