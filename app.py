@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Load dataset with caching
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r"E:\ML_project\amazon.csv")
+    data = pd.read_csv("amazon.csv")
     data = data[['product_name', 'category', 'rating', 'review_title']].drop_duplicates().reset_index(drop=True)
 
     # Clean the 'rating' column
